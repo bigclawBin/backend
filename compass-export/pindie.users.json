@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "65ef1f358c121ad8a56dabb6"
+  },
+  "username": "aski",
+  "email": "aski@example.com",
+  "password": "ilovehtml"
+},
+{
+  "_id": {
+    "$oid": "6606b3e0ba5b4c3fa4be6dd5"
+  },
+  "username": "Sobaka",
+  "email": "jav@example.com",
+  "password": "$2a$10$g6PgxfOv1p0xVAi1FCckRuolYB5ImwazvVVhNVisaoxDI9NuAE8oi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664f7d9862914596cfd8b1a1"
+  },
+  "username": "bigclaw",
+  "email": "big.claw@mail.ru",
+  "password": "$2a$10$wJr0DYEjT0.hZYtwc7rREuW4k0WWH8kLKHEu3DBLb40ThpJ6c9Gku",
+  "__v": 0
+}]
