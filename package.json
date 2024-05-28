@@ -13,7 +13,7 @@
   "devDependencies": {
     "nodemon": "^3.1.1"
   },
-  "name": "pindie-backend_2",
+  "name": "pindie-back_2",
   "description": "",
   "version": "1.0.0",
   "main": "app.js",
