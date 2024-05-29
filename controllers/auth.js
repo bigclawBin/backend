@@ -5,7 +5,8 @@ const path = require("path");
 
 const login = (req, res) => {
   const { email, password } = req.body;
-
+  console.log('Email:', email);
+  console.log('Password:', password);
   users.findUserByCredentials(email, password)
     .then((user) => {
       const token = jwt.sign({ _id: user._id }, "some-secret-key", { expiresIn: 3600 });
@@ -22,6 +23,7 @@ const login = (req, res) => {
     .catch(error => {
       res.status(401).send({ message: error.message });
     });
+
 };
 
 
